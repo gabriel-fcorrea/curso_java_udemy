@@ -8,7 +8,8 @@ public class exercicio3 {
 
 		double preco = 34.5;
 		// o valor é validado na própria atribuição do valor:
-		double desconto = (preco < 20.0) ? preco + 0.1 : preco * 0.05;
+		// (condição) ? se : senão
+		double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.05;
 
 		System.out.print(desconto);
 
