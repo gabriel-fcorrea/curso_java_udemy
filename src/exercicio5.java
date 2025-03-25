@@ -23,5 +23,7 @@ public class exercicio5 {
 		System.out.printf(
 				"O a diferença do produto do primeiro par de números com o segundo par de números corresponde a %d.",
 				resultado);
+
+		sc.close();
 	}
 }
